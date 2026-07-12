@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Fine dining in Limassol, Cyprus. LUMIÈRE serves an 18-course seasonal tasting menu of island produce, open-fire cooking and wine pairings on the Cypriot coast." />
+  <!-- ⚠ REPLACE-WITH-YOUR-DOMAIN: swap this for your real production domain sitewide before launch (see canonical + sitemap + robots.txt) -->
+  <link rel="canonical" href="https://REPLACE-WITH-YOUR-DOMAIN.com/" />
+  <meta property="og:title" content="LUMIÈRE · Modern Fine Dining in Limassol, Cyprus" />
+  <meta property="og:description" content="An 18-course seasonal tasting menu built from Limassol's markets and Cypriot producers, cooked over open flame." />
+  <meta property="og:type" content="restaurant" />
+  <meta property="og:url" content="https://REPLACE-WITH-YOUR-DOMAIN.com/" />
+  <meta property="og:image" content="https://REPLACE-WITH-YOUR-DOMAIN.com/images/lamb-shank-plate.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="LUMIÈRE · Modern Fine Dining in Limassol, Cyprus" />
+  <meta name="twitter:description" content="An 18-course seasonal tasting menu on the Cypriot coast." />
+  <meta name="twitter:image" content="https://REPLACE-WITH-YOUR-DOMAIN.com/images/lamb-shank-plate.jpg" />
+  <title>LUMIÈRE · Modern Fine Dining in Limassol, Cyprus</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Restaurant",
+    "name": "LUMIÈRE",
+    "image": "https://REPLACE-WITH-YOUR-DOMAIN.com/images/lamb-shank-plate.jpg",
+    "url": "https://REPLACE-WITH-YOUR-DOMAIN.com/",
+    "telephone": "+35794032850",
+    "priceRange": "€€€€",
+    "servesCuisine": ["Mediterranean", "Cypriot", "Contemporary European"],
+    "acceptsReservations": "True",
+    "menu": "https://REPLACE-WITH-YOUR-DOMAIN.com/menu.html",
+    "award": "Michelin 2 Stars",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "14 Amathountos Avenue",
+      "addressLocality": "Limassol",
+      "addressCountry": "CY"
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "opens": "18:00",
+      "closes": "22:30"
+    }
+  }
+  </script>
+</head>
+<body>
+  <!-- Ambient background -->
+  <div class="bg-orbs" aria-hidden="true">
+    <span class="orb orb-1"></span>
+    <span class="orb orb-2"></span>
+    <span class="orb orb-3"></span>
+  </div>
+
+  <!-- Scroll progress -->
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <a href="index.html" class="nav__logo" id="navLogo">
+      <span class="nav__logo-mark">◆</span> LUMIÈRE
+    </a>
+    <nav class="nav__links" id="navLinks">
+      <a href="index.html" class="is-current">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="blog.html">Blogs</a>
+      <a href="#reserve" class="nav__cta">Reserve</a>
+    </nav>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- ============ HERO (brand-reveal) ============ -->
+  <section class="hero" id="home">
+    <div class="hero__stage" id="heroStage">
+      <span class="hero__ornament" aria-hidden="true">✦</span>
+      <p class="hero__eyebrow">Est. 2026 — Contemporary Gastronomy</p>
+      <h1 class="hero__brand" id="heroBrand">LUMIÈRE</h1>
+      <div class="hero__rule" aria-hidden="true"><span>◆</span></div>
+      <p class="hero__tag">Where flavor meets light.</p>
+      <div class="hero__actions">
+        <a href="#reserve" class="btn btn--primary">Reserve a table</a>
+        <a href="menu.html" class="btn btn--ghost">View the menu</a>
+      </div>
+    </div>
+    <a href="#intro" class="hero__scroll" aria-label="Scroll down">
+      <span>Scroll</span>
+      <span class="hero__scroll-line"></span>
+    </a>
+  </section>
+
+  <!-- ============ INTRO STATEMENT ============ -->
+  <section class="intro" id="intro">
+    <div class="intro__inner reveal">
+      <p class="intro__eyebrow">The Philosophy</p>
+      <p class="intro__lead">
+        An eighteen-course journey that rewrites itself every season — built from
+        Limassol's markets and Cypriot island producers, cooked over open flame, and
+        served in a room designed to glow. No two evenings are ever quite the same.
+      </p>
+      <div class="intro__meta">
+        <div><strong>18</strong><span>Course tasting</span></div>
+        <div><strong>2★</strong><span>Michelin</span></div>
+        <div><strong>40+</strong><span>Local producers</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SIGNATURE DISHES (preview) ============ -->
+  <section class="section" id="signature">
+    <div class="section__head reveal">
+      <p class="section__eyebrow">Signatures</p>
+      <h2 class="section__title">A taste of the table</h2>
+      <p class="section__sub">A glimpse of the current menu. The full tasting changes with the season.</p>
+    </div>
+
+    <div class="dishes">
+      <article class="dish reveal">
+        <div class="dish__media">
+          <!-- IMAGE SLOT: hand-dived scallop -->
+          <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=1000&q=80"
+               alt="Hand-dived scallop plated with sea herbs" loading="lazy"
+               onerror="this.style.display='none'" />
+        </div>
+        <div class="dish__body">
+          <span class="dish__cat">Starter</span>
+          <h3>Hand-dived scallop</h3>
+          <p>Yuzu kosho, sea herbs, finger lime, kombu oil.</p>
+        </div>
+      </article>
+
+      <article class="dish reveal" style="--d:.1s">
+        <div class="dish__media">
+          <!-- IMAGE SLOT: dry-aged duck -->
+          <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1000&q=80"
+               alt="Dry-aged duck breast with cherry" loading="lazy"
+               onerror="this.style.display='none'" />
+        </div>
+        <div class="dish__body">
+          <span class="dish__cat">Main</span>
+          <h3>Dry-aged duck breast</h3>
+          <p>Fermented cherry, salt-baked beet, jus gras.</p>
+        </div>
+      </article>
+
+      <article class="dish reveal" style="--d:.2s">
+        <div class="dish__media">
+          <!-- IMAGE SLOT: dessert -->
+          <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=1000&q=80"
+               alt="Plated dessert with burnt honey" loading="lazy"
+               onerror="this.style.display='none'" />
+        </div>
+        <div class="dish__body">
+          <span class="dish__cat">Dessert</span>
+          <h3>Burnt honey &amp; miso</h3>
+          <p>Buckwheat sponge, cultured cream, bee pollen.</p>
+        </div>
+      </article>
+    </div>
+
+    <div class="section__cta reveal">
+      <a href="menu.html" class="btn btn--ghost">Explore the full menu →</a>
+    </div>
+  </section>
+
+  <!-- ============ CHEF ============ -->
+  <section class="section chef" id="chef">
+    <div class="chef__media reveal">
+      <div class="chef__frame">
+        <!-- IMAGE SLOT: chef portrait -->
+        <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&fit=crop&w=900&q=80"
+             alt="Chef Elena Marchetti" loading="lazy"
+             onerror="this.style.display='none'" />
+        <div class="chef__badge"><span>2★</span><small>Michelin</small></div>
+      </div>
+    </div>
+    <div class="chef__body reveal" style="--d:.15s">
+      <p class="section__eyebrow">The Chef</p>
+      <h2 class="section__title">Elena Marchetti</h2>
+      <p class="chef__quote">"A plate should feel like a memory you haven't made yet."</p>
+      <p>
+        Trained across Copenhagen and Kyoto, Elena brought her kitchen home to the
+        Cypriot coast — building each menu like a piece of music around Limassol's
+        markets, fishermen and island producers. Tension, release, and a final note
+        that lingers.
+      </p>
+      <a href="blog.html" class="btn btn--ghost">Read the blog →</a>
+    </div>
+  </section>
+
+  <!-- ============ GALLERY ============ -->
+  <section class="section" id="gallery">
+    <div class="section__head reveal">
+      <p class="section__eyebrow">The Room</p>
+      <h2 class="section__title">A space that glows</h2>
+    </div>
+    <div class="gallery">
+      <figure class="gallery__tile g1 reveal">
+        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=80" alt="Dining room" loading="lazy" onerror="this.style.display='none'" />
+      </figure>
+      <figure class="gallery__tile g2 reveal" style="--d:.08s">
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=800&q=80" alt="Table setting" loading="lazy" onerror="this.style.display='none'" />
+      </figure>
+      <figure class="gallery__tile g3 reveal" style="--d:.16s">
+        <img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=800&q=80" alt="Wine pour" loading="lazy" onerror="this.style.display='none'" />
+      </figure>
+      <figure class="gallery__tile g4 reveal" style="--d:.24s">
+        <img src="https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&w=1000&q=80" alt="Plating detail" loading="lazy" onerror="this.style.display='none'" />
+      </figure>
+      <figure class="gallery__tile g5 reveal" style="--d:.32s">
+        <img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?auto=format&fit=crop&w=800&q=80" alt="Seafood dish" loading="lazy" onerror="this.style.display='none'" />
+      </figure>
+    </div>
+  </section>
+
+  <!-- ============ BLOGS PREVIEW ============ -->
+  <section class="section" id="blogs">
+    <div class="section__head reveal">
+      <p class="section__eyebrow">The Blog</p>
+      <h2 class="section__title">Stories from the pass</h2>
+      <p class="section__sub">Notes on Limassol's seasons, island producers, and the ideas behind the plates.</p>
+    </div>
+
+    <div class="posts">
+      <a href="blog-fine-dining-limassol.html" class="post reveal">
+        <div class="post__media">
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=900&q=80" alt="Fine dining tasting plate in Limassol" loading="lazy" onerror="this.parentNode.classList.add('is-empty')" />
+        </div>
+        <div class="post__body">
+          <span class="post__meta">Dining Guide · Jun 2026</span>
+          <h3>Fine dining in Limassol: a seasonal tasting guide</h3>
+          <p>Where the island's produce meets the plate on the Cypriot coast.</p>
+        </div>
+      </a>
+
+      <a href="blog-cyprus-seasonal-ingredients.html" class="post reveal" style="--d:.1s">
+        <div class="post__media">
+          <img src="https://images.unsplash.com/photo-1466637574441-749b8f19452f?auto=format&fit=crop&w=900&q=80" alt="Fresh Cypriot seasonal produce" loading="lazy" onerror="this.parentNode.classList.add('is-empty')" />
+        </div>
+        <div class="post__body">
+          <span class="post__meta">Producers · May 2026</span>
+          <h3>Cyprus on the plate: cooking with island ingredients</h3>
+          <p>From Limassol's markets to Troodos foragers — the produce behind our menu.</p>
+        </div>
+      </a>
+
+      <a href="blog.html" class="post reveal" style="--d:.2s">
+        <div class="post__media">
+          <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&w=900&q=80" alt="Zero-proof drink pairing" loading="lazy" onerror="this.parentNode.classList.add('is-empty')" />
+        </div>
+        <div class="post__body">
+          <span class="post__meta">Pairings · Apr 2026</span>
+          <h3>Zero-proof, full flavor</h3>
+          <p>How we build alcohol-free pairings with real depth.</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="section__cta reveal">
+      <a href="blog.html" class="btn btn--ghost">Read the blog →</a>
+    </div>
+  </section>
+
+  <!-- ============ RESERVE ============ -->
+  <section class="section reserve" id="reserve">
+    <div class="reserve__card reveal">
+      <div class="reserve__intro">
+        <p class="section__eyebrow">Reservations</p>
+        <h2 class="section__title">Save your seat</h2>
+        <p>Tables open 30 days ahead. The tasting menu is served Tuesday–Saturday from 6pm.</p>
+        <ul class="reserve__facts">
+          <li><span>◷</span> Seatings at 6:00 &amp; 8:30</li>
+          <li><span>⚲</span> 14 Amathountos Avenue, Limassol, Cyprus</li>
+          <li><span>☏</span> <a href="tel:+35794032850">+357 94 032 850</a></li>
+        </ul>
+      </div>
+      <form class="reserve__form" id="reserveForm" novalidate autocomplete="on"
+            action="https://formspree.io/f/mwvgeapd" method="POST">
+        <div class="field">
+          <input type="text" id="name" name="name" required maxlength="80"
+                 autocomplete="name" placeholder=" " />
+          <label for="name">Full name</label>
+        </div>
+        <div class="field">
+          <input type="email" id="email" name="email" required maxlength="120"
+                 autocomplete="email" inputmode="email" placeholder=" " />
+          <label for="email">Email</label>
+        </div>
+        <div class="field--row">
+          <div class="field">
+            <label for="date" class="label--static">Date</label>
+            <input type="date" id="date" name="date" required placeholder=" " />
+          </div>
+          <div class="field">
+            <label for="guests" class="label--static">Party</label>
+            <select id="guests" name="guests" required>
+              <option value="2">2 guests</option>
+              <option value="3">3 guests</option>
+              <option value="4">4 guests</option>
+              <option value="5">5 guests</option>
+              <option value="6">6+ guests</option>
+            </select>
+          </div>
+        </div>
+        <input type="hidden" name="_subject" value="New reservation request — LUMIÈRE" />
+        <!-- Honeypot: real visitors never see or fill this field. Any bot that
+             does gets silently dropped by Formspree. No CAPTCHA JS needed. -->
+        <input type="text" name="_gotcha" class="hp-field" tabindex="-1" autocomplete="off" aria-hidden="true" />
+        <button type="submit" class="btn btn--primary btn--full">Request reservation</button>
+        <p class="reserve__note" id="formNote" role="status" aria-live="polite"></p>
+        <p class="reserve__demo">
+          Prefer to talk it through? Call <a href="tel:+35794032850">+357 94 032 850</a>.
+        </p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__top">
+      <a href="index.html" class="nav__logo"><span class="nav__logo-mark">◆</span> LUMIÈRE</a>
+      <nav class="footer__links">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="blog.html">Blogs</a>
+        <a href="#reserve">Reserve</a>
+      </nav>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2026 Lumière. Crafted with intention.</p>
+      <nav class="footer__links"><a href="privacy-policy.html">Privacy Policy</a><a href="terms.html">Terms</a></nav>
+      <div class="footer__social">
+        <a href="#">Instagram</a><a href="#">X</a><a href="#">Newsletter</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

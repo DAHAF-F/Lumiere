@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The LUMIÈRE menu in Limassol, Cyprus — a seasonal tasting of starters, mains and desserts built from island produce, with wine and zero-proof pairings." />
+  <link rel="canonical" href="https://REPLACE-WITH-YOUR-DOMAIN.com/menu.html" />
+  <meta property="og:title" content="Menu · LUMIÈRE, Limassol Cyprus" />
+  <meta property="og:description" content="Seasonal starters, mains and desserts from island produce, with an 18-course tasting and wine or zero-proof pairings." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://REPLACE-WITH-YOUR-DOMAIN.com/menu.html" />
+  <meta property="og:image" content="https://REPLACE-WITH-YOUR-DOMAIN.com/images/lamb-shank-plate.jpg" />
+  <title>Menu · LUMIÈRE, Limassol Cyprus</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="subpage">
+  <div class="bg-orbs" aria-hidden="true">
+    <span class="orb orb-1"></span><span class="orb orb-2"></span><span class="orb orb-3"></span>
+  </div>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <header class="nav is-solid" id="nav">
+    <a href="index.html" class="nav__logo"><span class="nav__logo-mark">◆</span> LUMIÈRE</a>
+    <nav class="nav__links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="menu.html" class="is-current">Menu</a>
+      <a href="blog.html">Blogs</a>
+      <a href="index.html#reserve" class="nav__cta">Reserve</a>
+    </nav>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+  </header>
+
+  <!-- Page hero -->
+  <section class="page-hero">
+    <p class="page-hero__eyebrow reveal">The Menu</p>
+    <h1 class="page-hero__title reveal" style="--d:.1s">Tonight's tasting</h1>
+    <div class="hero__rule reveal" style="--d:.2s" aria-hidden="true"><span>◆</span></div>
+    <p class="page-hero__sub reveal" style="--d:.3s">
+      Served Tuesday–Saturday in Limassol. Full 18-course tasting €135 per guest, with an
+      optional wine or zero-proof pairing. À la carte selections below.
+    </p>
+  </section>
+
+  <!-- Filters -->
+  <div class="menu-filters reveal" role="tablist">
+    <button class="chip is-active" data-filter="all">All</button>
+    <button class="chip" data-filter="starters">Starters</button>
+    <button class="chip" data-filter="mains">Mains</button>
+    <button class="chip" data-filter="dessert">Dessert</button>
+    <button class="chip" data-filter="pairing">Pairings</button>
+  </div>
+
+  <!-- Menu list -->
+  <section class="menu-page" id="menu-list">
+
+    <article class="mrow reveal" data-cat="starters">
+      <div class="mrow__media"><img src="https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?auto=format&fit=crop&w=600&q=80" alt="Charred leek and hazelnut starter" loading="lazy" onerror="this.parentNode.classList.add('is-empty')" /></div>
+      <div class="mrow__text"><h3>Charred leek &amp; hazelnut</h3><p>Smoked crème fraîche, brown butter, toasted grain.</p></div>
+      <span class="mrow__price">18</span>
+    </article>
+
+    <article class="mrow reveal" data-cat="starters">
+      <div class="mrow__media"><img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=600&q=80" alt="Hand-dived scallop with yuzu kosho" loading="lazy" onerror="this.parentNode.classList.add('is-empty')" /></div>
+      <div class="mrow__text"><h3>Hand-dived scallop</h3><p>Yuzu kosho, sea herbs, finger lime, kombu oil.</p></div>
+      <span class="mrow__price">24</span>
+    </article>
+
+    <article class="mrow reveal" data-cat="starters">
+      <div class="mrow__media"><img src="https://images.unsplash.com/photo-1432139555190-58524dae6a55?auto=format&fit=crop&w=600&q=80" alt="Heritage tomato and 'nduja starter" loading="lazy" onerror="this.parentNode.classList.add('is-empty')" /></div>
+      <div class="mrow__text"><h3>Heritage tomato &amp; ‘nduja</h3><p>Basil oil, whipped ricotta, sourdough crisp.</p></div>
+      <span class="mrow__price">19</span>
+    </article>
+
+    <article class="mrow reveal" data-cat="starters">
+      <div class="mrow__media"><img src="images/bone-marrow-plate.jpg" alt="Open-fire roasted bone marrow with herb salsa verde" loading="lazy" onerror="this.parentNode.classList.add('is-empty')" /></div>
+      <div class="mrow__text"><h3>Roasted bone marrow</h3><p>Herb salsa verde, sea salt, grilled sourdough.</p></div>
+      <span class="mrow__price">22</span>
+    </article>
+
+    <article class="mrow reveal" data-cat="mains">
+      <div class="mrow__media"><img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80" alt="Dry-aged duck breast with fermented cherry" loading="lazy" onerror="this.parentNode.classList.add('is-empty')" /></div>
+      <div class="mrow__text"><h3>Dry-aged duck breast</h3><p>Fermented cherry, salt-baked beet, jus gras.</p></div>
+      <span class="mrow__price">42</span>
+    </article>
+
+    <article class="mrow reveal" data-cat="mains">
+      <div class="mrow__media"><img src="images/lamb-shank-plate.jpg" alt="Slow-braised lamb shank with rosemary roast potatoes" loading="lazy" onerror="this.parentNode.classList.add('is-empty')" /></div>
+      <div class="mrow__text"><h3>Slow-braised lamb shank</h3><p>Rosemary roast potatoes, sea salt, natural jus.</p></div>
+      <span class="mrow__price">39</span>
+    </article>
+
+    <article class="mrow reveal" data-cat="mains">
+      <div class="mrow__media"><img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=600&q=80" alt="Cornish turbot on the bone with caviar" loading="lazy" onerror="this.parentNode.classList.add('is-empty')" /></div>
+      <div class="mrow__text"><h3>Cornish turbot on the bone</h3><p>Vin jaune beurre blanc, wild garlic, caviar.</p></div>
+      <span class="mrow__price">48</span>
+    </article>
+
+    <article class="mrow reveal" data-cat="mains">
+      <div class="mrow__media"><img src="https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&w=600&q=80" alt="Aged ribeye steak with bone marrow" loading="lazy" onerror="this.parentNode.classList.add('is-empty')" /></div>
+      <div class="mrow__text"><h3>Aged ribeye, 300g</h3><p>Bone marrow, charred allium, red wine reduction.</p></div>
+      <span class="mrow__price">54</span>
+    </article>
+
+    <article class="mrow reveal" data-cat="dessert">
+      <div class="mrow__media"><img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?auto=format&fit=crop&w=600&q=80" alt="Burnt honey and miso dessert" loading="lazy" onerror="this.parentNode.classList.add('is-empty')" /></div>
+      <div class="mrow__text"><h3>Burnt honey &amp; miso</h3><p>Buckwheat sponge, cultured cream, bee pollen.</p></div>
+      <span class="mrow__price">16</span>
+    </article>
+
+    <article class="mrow reveal" data-cat="dessert">
+      <div class="mrow__media"><img src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=600&q=80" alt="Dark chocolate 72% dessert" loading="lazy" onerror="this.parentNode.classList.add('is-empty')" /></div>
+      <div class="mrow__text"><h3>Dark chocolate 72%</h3><p>Olive oil, smoked salt, sourdough ice cream.</p></div>
+      <span class="mrow__price">17</span>
+    </article>
+
+    <article class="mrow reveal" data-cat="pairing">
+      <div class="mrow__media"><img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?auto=format&fit=crop&w=600&q=80" alt="Natural wine pairing glasses" loading="lazy" onerror="this.parentNode.classList.add('is-empty')" /></div>
+      <div class="mrow__text"><h3>Natural wine pairing</h3><p>Seven glasses, matched course by course.</p></div>
+      <span class="mrow__price">85</span>
+    </article>
+
+    <article class="mrow reveal" data-cat="pairing">
+      <div class="mrow__media"><img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&w=600&q=80" alt="Zero-proof drink pairing" loading="lazy" onerror="this.parentNode.classList.add('is-empty')" /></div>
+      <div class="mrow__text"><h3>Zero-proof pairing</h3><p>House ferments, cordials and infusions.</p></div>
+      <span class="mrow__price">45</span>
+    </article>
+
+  </section>
+
+  <section class="menu-cta reveal">
+    <h2 class="section__title">Ready to dine?</h2>
+    <a href="index.html#reserve" class="btn btn--primary">Reserve a table</a>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__top">
+      <a href="index.html" class="nav__logo"><span class="nav__logo-mark">◆</span> LUMIÈRE</a>
+      <nav class="footer__links">
+        <a href="index.html">Home</a><a href="menu.html">Menu</a><a href="blog.html">Blogs</a><a href="index.html#reserve">Reserve</a>
+      </nav>
+    </div>
+    <div class="footer__bottom">
+      <p>© 2026 Lumière. Crafted with intention.</p>
+      <nav class="footer__links"><a href="privacy-policy.html">Privacy Policy</a><a href="terms.html">Terms</a></nav>
+      <div class="footer__social"><a href="#">Instagram</a><a href="#">X</a><a href="#">Newsletter</a></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
